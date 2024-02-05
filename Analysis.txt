@@ -1,0 +1,15 @@
+Below is the Analysis of the charity funding predictor.
+
+
+The accuracy and loss result after removing the EIN and NAME column as a part of dataprocessing.
+
+268/268 - 0s - loss: 0.5614 - accuracy: 0.7233 - 172ms/epoch - 642us/step
+Loss: 0.5613744854927063, Accuracy: 0.7232652902603149
+
+
+The accuracy and loss result after adding the  NAME column as a part of dataprocessing.
+268/268 - 0s - loss: 0.4676 - accuracy: 0.7874 - 214ms/epoch - 800us/step
+Loss: 0.46761372685432434, Accuracy: 0.787405252456665
+
+
+The first attempt was just over 72% which was under a desired 75% .The second attempt with the "Name" column in the data set achieved the accuracy of almost 79%(78.74).
